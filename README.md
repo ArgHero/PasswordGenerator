@@ -1,4 +1,18 @@
-# Generador de Contraseñas
+# Dominando el  DOM en JavaScript
+## _Saul Omar Arguello Hernandez_
+> En esta clase se dominaron diferentes tecnicas para modificar elementos dentro del HTML de forma dinámica al hacer uso de diferentes instrucciones del JS.
+
+# Proyecto: Generador de Contraseñas
+
+## Objetivo
+
+El objetivo es crear un sitio que nos permita generar una contraseña segura, basado en el proyecto de frontend mentor:
+
+![ejemplo](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/nvjjyhvhqfwnjseojdgg.jpg)
+
+- Apartir de la imagen propocionada maqueta y genera el formulario necesario para generar el html
+- El sitio debe ser capaza de generar una contraseña diferente de mas de 8 palabras usando simbolos, letras y numéros
+- Imagina las diferentes opciones que puedes implementar en tu página
 
 Este es un generador de contraseñas que permite crear contraseñas seguras y personalizadas según las preferencias del usuario.
 
@@ -20,7 +34,5 @@ Este es un generador de contraseñas que permite crear contraseñas seguras y pe
 3. Haz clic en el botón "GENERAR →" para generar una nueva contraseña.
 4. La contraseña generada aparecerá en el campo superior, justo debajo del titulo de la propia página.
 5. Para copiar la contraseña al portapapeles, haz clic en el icono de copiar.
-
-## Captura de Pantalla
 
 ![Anime](https://i.pinimg.com/736x/56/21/b0/5621b050655c48d8d82e942d54cd4473.jpg)
