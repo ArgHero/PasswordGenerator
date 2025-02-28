@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section id="app-container">
+            <article class="titulo">
+                <p>Generador de contraseñas</p>
+            </article>
+            <article class="app-output">
+                <p id="generated-pass"></p>
+                <span class="copy-button" onclick="copiarTexto()"><img src="https://cdn-icons-png.flaticon.com/256/3914/3914174.png" alt="copy"></span>
+            </article>
+            <article class="app-body">
+                <span class="quantity">
+                    <p>Longitud de la contraseña</p>
+                    <p id="num-caracteres">10</p>
+                </span>
+                <span class="range-container">
+                    <input id="lengContra" type="range" min="1" max="20" value="10" class="custom-range">
+                </span>
+                <ul class="configs">
+                    <li>
+                        <input type="checkbox" id="doUpper">
+                        <label for="doUpper">Incluye mayúsculas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="doLower">
+                        <label for="doLower">Incluye miúsculas</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="doNumber">
+                        <label for="doNumber">Incluye numeros</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="doSymbol">
+                        <label for="doSymbol">Incluye simbolos</label>
+                    </li>
+                </ul>
+                <span class="rate-container">
+                    <p>FUERZA</p>
+                    <div class="rating">
+                        <p></p>
+                        <progress value="0" max="4"></progress>
+                    </div>
+                </span>
+                <button type="submit" onclick="updatePassword()">GENERAR →</button>
+            </article>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
