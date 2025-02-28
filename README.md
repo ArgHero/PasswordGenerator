@@ -23,4 +23,4 @@ Este es un generador de contraseñas que permite crear contraseñas seguras y pe
 
 ## Captura de Pantalla
 
-![Anime](https://i.imgur.com/4AiXzf8.jpg)
+![Anime](https://i.pinimg.com/736x/56/21/b0/5621b050655c48d8d82e942d54cd4473.jpg)
